@@ -231,7 +231,6 @@ bool scale_read(
 bool scale_zero(
     scale_t* const sc,
     const scale_options_t* const opt) {
-
         assert(sc != NULL);
         assert(opt != NULL);
 
